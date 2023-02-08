@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+   width: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+header ul{
+    display: flex;
+    padding: 20px;
+    line-height: 50px;
+   
+}
+header ul li{
+   list-style: none;
+    margin-left: 20px;
+    font-size: 15px;
+   
+}
+header ul li a{
+   color: gray;
+   text-decoration: none;
+}
+.app-logo{
+   width: 45px;
+}
+.sing-btn{
+    padding: 8px 20px;
+    background: rgb(31, 93, 227);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.sicon{
+    width: 20px;
+    
+}
+.micon{
+    width: 20px;
+    margin-right: -64px;
+}
+
+section .main{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+section .main .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+
+}
+section .main .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+   display: flex;
+   padding: 12px 20px;
+   justify-content: space-between;
+   align-items: center;
+   pointer-events: none;
+}
+section .main .bottons{
+    margin-top: 20px;
+}
+
+section .main .bottons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px solid transparent;
+}
+section .main .bottons button:hover{
+    border: 1px solid #ccc;
+}
+
+section .main .lang{
+    margin-top: 20px;
+}
+
+section .main .lang a{
+    text-decoration: none;
+}
+
+section .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ccc;
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+section .footer .row ul{
+  display: flex;
+}
+section .footer .row ul li{
+    list-style: none;
+    margin: 0px 10px;
+    text-decoration: none;
+
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    
+}
+
+/* tablate view */
+@media(min-width:769px) and (max-width:1024px){
+  section .footer {
+    width: 100%;
+}
+.sing-btn{
+
+    background:tomato;
+}
+}
+
+/* mobile view */
+@media(max-width:768px){
+   img.g-img {
+    width: 200px;
+}
+section .main .searchbox .search {
+    width: 78%;
+}
+section .main .searchbox .icons {
+    width: 80%;
+   
+}
+
+section .footer .row ul {
+    display: block;
+}
+section .footer {
+
+    bottom: -34px;
+ 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section .main{
+    width: 100%;
+    text-align: center;
+} */
+/* 
+.searchbox input{
+    width: 100%;
+    padding: 12px;
+    padding-left: 0px;
+    padding-right: 60px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.Sicons{
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottons{
+    margin: 15px;
+
+}
+.bottons button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+
+}
+
+.bottons button:hover{
+    background-color: #ccc;
+}
+
+.lang button{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.lang button a{
+    text-decoration: none;
+} */
